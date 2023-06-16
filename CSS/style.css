@@ -1,0 +1,69 @@
+body {
+    background-image: url(https://i.pinimg.com/736x/d1/96/ed/d196ed18b3cf583a34cce1c81defa253.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main {
+    color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+li {
+    padding: 0.5rem;
+    cursor: pointer;
+    border: 5px solid black;
+    font-size: 1.5rem;
+  }
+
+li:hover {
+    border: 5px solid rgb(1, 114, 47);
+}
+
+.item {
+  display: inline-block;
+}
+
+#mochila {
+  min-height: 140px;
+  padding: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 1rem;
+    font-weight: 400;
+}
+
+.ventana {
+    border: 5px solid white;
+    background-color: black;
+    opacity: 0.9;
+}
+
+#oro {
+    color: gold;
+    font-size: 3rem;
+}

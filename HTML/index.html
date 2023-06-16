@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <img src="/IMG/png-transparent-potion-witchcraft-cartoon-wizard-cartoon-character-painted-hand-thumbnail-removebg-preview.png" alt="">
+            <div class="ventana">
+                <h1>Hola soy la bruja cadabra</h1>
+                <h2>Compraras algo o te quedaras ahi como si nada</h2>
+            </div>
+            <ul>
+                <li onclick="comprar(pocion)">Pocion de Vida</li>
+                <li onclick="comprar(comida)">Comida</li>
+                <li onclick="comprar(dulces)">Dulces</li>
+            </ul>
+        </section>
+        <section class="ventana">
+            <div>
+                <h1>Mi mochila</h1>
+                <ul id="mochila">
+                    <!-- Acá vamos a cargar los items que vayamos comprando -->
+                </ul>
+                <h1 id="oro">Oro: <span></span></h1>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy;Todos los derechos reservados Alvi Fernandez Halloween
+    </footer>
+    <script src="/JS/app.js"></script>
+</body>
+</html>
